@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 // import './App.css';
-import NavigationBar from './components/Navbar';
+import NavigationBar from './components/NavigationBar';
 import Home from './components/Home';
 import Project from './components/Project';
 import Contact from './components/Contact';

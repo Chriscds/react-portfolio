@@ -1,0 +1,13 @@
+.navStyle {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.BrandName {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.linkFont {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
