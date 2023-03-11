@@ -9,6 +9,7 @@ const Contact = () => (
 
 export default Contact;
 
+// TODO:
 // Email address
 // Link to PDF of cv
 // GitHub link

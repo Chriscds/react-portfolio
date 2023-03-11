@@ -1,11 +1,13 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
+import './styles/Home.css';
+import ProfilePhoto from '../assets/chris-southon-profile-photo.png';
 
 const Home = () => (
-    <div>
+    <div className="container-fluid homeBackground">
         <Container>
             <div>
-            <h1 className="">Chris Southon</h1>
+                <img className="img-fluid" src={ProfilePhoto} alt="Chris Southon Profile"/>
             </div>
         </Container>
     </div>
@@ -14,6 +16,7 @@ const Home = () => (
 
 export default Home;
 
+// TODO:
 // Photo
 // Chris Southon
     // Front-end Developer

@@ -8,14 +8,15 @@ import './styles/Navbar.css';
 
 function NavigationBar() {
     return (
-      <nav className="navbar navbar-expand-lg">
-        <div className="container-fluid justify-content-center">
-          <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="navbarConent" aria-controls="navbarConent" aria-expanded="false" aria-label="Toggle">
+      <nav className="navbar navbar-expand-md">
+        <div className="container-fluid">
+          {/* Need to fix hamburger menu */}
+          <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
-          <div className="navbar-collapse collapse" id="navbarConent">
-          <ul className="nav linkFont">
-          <li className="nav-item">
+          <div className="collapse navbar-collapse" id="navbarContent">
+          <ul className="navbar-nav linkFont text-white">
+          <li className="nav-item active">
             <NavLink
               to="/"
               end
