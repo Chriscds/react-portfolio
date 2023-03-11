@@ -1,15 +1,22 @@
 import React from 'react';
-import { Container } from 'react-bootstrap';
+// import { Container } from 'react-bootstrap';
 import './styles/Home.css';
 import ProfilePhoto from '../assets/chris-southon-profile-photo.png';
 
 const Home = () => (
     <div className="container-fluid homeBackground">
-        <Container>
-            <div>
-                <img className="img-fluid" src={ProfilePhoto} alt="Chris Southon Profile"/>
+        {/* <Container> */}
+            <div className="photo">
+                <img className="img-fluid rounded-5 shadow-lg" src={ProfilePhoto} alt="Chris Southon Profile"/>
             </div>
-        </Container>
+        {/* </Container> */}
+            <div>
+                <h1>Chris Southon</h1>
+                <h3>Frontend Developer</h3>
+            </div>
+            <div>
+                <p></p>
+            </div>
     </div>
 
 );
