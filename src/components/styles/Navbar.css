@@ -2,9 +2,13 @@
     /* background-color: #170a27; */
     background-color: #445760c7;
 }
+.nav-link {
+    color: aquamarine;
+}
 .BrandName {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
 
 .linkFont {
     font-family: 'Courier New', Courier, monospace;
