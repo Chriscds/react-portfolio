@@ -11,7 +11,7 @@ function NavigationBar() {
       <nav className="navbar navbar-expand-md">
         <div className="container-fluid">
           {/* Need to fix hamburger menu */}
-          <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+          <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle-navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarContent">
@@ -21,7 +21,7 @@ function NavigationBar() {
               to="/"
               end
               className={({ isActive}) =>
-                isActive ? 'nav-link active' : 'nav-link'
+                isActive ? 'nav-link active text-white' : 'nav-link'
             }
             >
               Home
@@ -32,7 +32,7 @@ function NavigationBar() {
               to="projects"
               end
               className={({ isActive}) =>
-                isActive ? 'nav-link active' : 'nav-link'
+                isActive ? 'nav-link active text-white' : 'nav-link'
             }
             >
               Projects
@@ -43,7 +43,7 @@ function NavigationBar() {
               to="contact"
               end
               className={({ isActive}) =>
-                isActive ? 'nav-link active' : 'nav-link'
+                isActive ? 'nav-link active text-white' : 'nav-link'
             }
             >
               Contact

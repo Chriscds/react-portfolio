@@ -1,16 +1,21 @@
 .navbar {
-    /* background-color: #170a27; */
-    background-color: #445760c7;
+    background-color: #170a27;
+    /* background-color: #180543; */
 }
 .nav-link {
-    color: aquamarine;
+    color: #ee671d;
+}
+.nav-link:hover {
+    color: #cb2fc3;
 }
 .BrandName {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-
-
 .linkFont {
     font-family: 'Courier New', Courier, monospace;
-    font-size: 20px;
+    font-size: 24px;
 }
+/* Fix color for button */
+/* .navbar-toggler-icon {
+    color: #ee671d;
+} */
